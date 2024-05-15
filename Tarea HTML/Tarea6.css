@@ -1,0 +1,17 @@
+body{
+    background-color:darkslategrey;
+    
+}
+input{
+    padding: 10px;
+}
+label{
+    padding: auto;
+}
+form{
+    border: 2px solid white;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  
+}

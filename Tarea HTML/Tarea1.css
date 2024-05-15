@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    height: 100%; /* Utilizamos el 100% del alto de la ventana del navegador */
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+.contenedor{
+   
+    width: 1000px; /* Ancho de 1000px */
+    height: 950px; /* Alto de 950px */
+    background-color: lightgray;
+    position: relative;
+    
+    
+}
+.arriva{
+    background-color: green;
+    width: 980px; /* Ancho del contenedor */
+    
+    height: 80px; /* Largo del contenedor */
+    
+    border: 10px solid black; /* Borde del contenedor */
+
+    display: flex;
+    flex-direction: row; /* Los elementos se colocarán en una fila horizontal */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20%; /* Ancho de cada contenedor hijo (20% - 16px de margen) */
+    height: 80%; /* Alto igual al del contenedor padre */
+    background-color: rgb(144, 144, 144);
+    border: 2px solid rgb(128, 64, 0); /* Borde del contenedor hijo */
+  
+   
+}
+.header{
+    background-color: blue;
+    width: 980px;
+    height: 280px;
+    border: 10px solid black;
+    display: flex; 
+   
+}
+.banner{
+    width: 800px;
+    height: 90%;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 2px solid rgb(128, 64, 0); /* Borde del contenedor hijo */
+    
+  
+}
+.banner2{
+    width: 150px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between,center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.logo{
+    width: 140px;
+    height: 30%;
+    
+    background-color: aliceblue;
+    margin: 5px;
+    border:2px solid green;
+}
+.login{
+    width: 140px;
+    height: 30%;
+   
+    background-color: aliceblue;
+    margin: 5px;
+   
+    border:2px solid green;
+}
+.form{
+    width: 140px;
+    height: 30%;
+   
+    background-color: aliceblue;
+    margin: 5px;
+    border:2px solid green;
+}
+.main{
+    width: 980px;
+    height: 480px;
+    border: 10px solid black;
+    display: flex;
+    background-color:blueviolet;
+
+
+}
+.aside{
+    width:230px;
+    height: 460px;
+    background-color: grey;
+    border: 10px solid white;
+}
+.article{
+    width:480px;
+    height: 460px;
+    background-color: grey;
+    border: 10px solid white;
+}
+.aside2{
+    width:230px;
+    height: 460px;
+    background-color: grey;
+    border: 10px solid white;
+}
+.final{
+    background-color: yellow;
+    width: 980;
+    height: 30px;
+    border:10px solid black;
+}

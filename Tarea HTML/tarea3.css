@@ -1,0 +1,130 @@
+body{
+    background-color: lightblue;
+}
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: auto;
+    margin-bottom: 20px;
+}
+.principal{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: auto;
+text-align: center;
+    background-color: cadetblue;
+    margin-bottom: 20px;
+}
+h1, p {
+    display: block;}
+    .peque{
+        width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: space-between;
+    max-width: 100%;
+    height: 100%;
+    }
+
+.imagen{
+    width: 15%;
+    height: 10%;
+    margin: 15px;
+    max-width: 15%;
+    max-height: 10%;
+    
+
+}
+.titledatos{
+background-color: antiquewhite;
+width: 100%;
+height: 50px;
+margin: 15PX;
+text-align: left;
+max-width: 100%;
+max-height: 50px;
+
+}
+h2{
+    color: red;
+}
+.contenidodatos{
+   background-color: aliceblue;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   max-height: auto;
+    
+}
+.datos{
+    font-size: 20px;
+}
+
+.c1{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: auto;
+   
+    flex-direction: row;
+  
+}
+.Laboral{
+    color: red;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+.p2{
+    font-size: 20px;
+   
+}
+.edu{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+.educacion{
+    color: red;
+}
+div{
+    text-align: left;
+}
+.p3{
+    font-size: 20px;
+    color:black
+}
+.contenido{
+ background-color: bisque;
+ width: 100%;
+ height: auto;
+}
+.tit{
+    background-color: rgb(70, 68, 68);
+    width: auto;
+    height: auto;
+    border:2px solid black;
+    color: yellowgreen;
+    margin: 5px;
+}
+h2{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+ul{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+li{
+    font-size: 20px;
+    margin: 5px;
+
+}
+.parrafo{
+background-color: white;
+margin: 5px;
+}

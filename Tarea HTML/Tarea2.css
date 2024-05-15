@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    height: 100%; /* Utilizamos el 100% del alto de la ventana del navegador */
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+.contenedor{
+   
+    width: 750px; /* Ancho de 1000px */
+    height: 750px; /* Alto de 950px */
+    background-color: lightgray;
+    position: relative;
+    
+    
+}
+.header{
+    background-color: lightblue;
+    width: 730px;
+    height: 230px;
+    border: 10px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    width: 480px;
+    height: 80%;
+    background-color: antiquewhite;
+border: 2px solid red;
+margin: 5px;
+}
+.logo{
+width: 230px;
+height: 80%;
+background-color: aliceblue;
+border: 2px solid red;
+margin:5px;
+
+}
+.nav{
+    background-color: green;
+    width: 730px;
+    height: 30px;
+    border:10px solid black;
+}
+.main{
+    background-color: grey;
+    width: 730px;
+    height: 380px;
+    border:10px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.article{
+    margin: 5px;
+    background-color: white;
+    width: 450px;
+    height: 360px;
+    border: 2px solid yellow;
+
+}
+.aside{
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    margin: 5px;
+    border: 2px solid yellow;
+
+}
+.final{
+    background-color: yellow;
+    height: 30px;
+    width: 730px;
+    border: 10px solid black;
+}

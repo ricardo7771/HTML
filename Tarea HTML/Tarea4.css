@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-image: url("https://static.wixstatic.com/media/127857_2312a5262a7e45e79378a6f7a8f08c03~mv2.jpg/v1/fill/w_640,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/127857_2312a5262a7e45e79378a6f7a8f08c03~mv2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style:double;
+
+    border: 5px solid blue;
+    margin: 10PX;
+}
+h1{
+    margin:30px;
+
+}
+h2{
+    margin: 30px;
+}
+
+label{margin: 50px;}

@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+text-align: center;
+height: 100vh; /* Ajusta la altura del body al 100% de la ventana del navegador */
+margin: 0;
+}  
+form{
+    max-width: 700px; /* Establece un ancho máximo para el formulario */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    padding: 20px; /* Agrega un espacio alrededor del formulario */
+    background-color: rgb(97, 93, 93); /* Cambia el color de fondo del formulario */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    padding: 30px;
+    border-radius: 15px solid white;
+   padding: 20px;
+}
+label{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+
+}
+div{
+    width: 700px;
+    height: 450px;
+}
+input{
+    margin: 20px;
+}
