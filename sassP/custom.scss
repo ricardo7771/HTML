@@ -1,0 +1,54 @@
+$font-family: "Roboto", sans-serif;
+$dark:#8bff2c ;
+$primary:white ;
+$danger: White;
+img{
+    width: 40px;
+    margin:15px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    text-align: center;
+
+}
+#carrito{
+    width: 45px;
+   
+}
+#presentacion{
+
+    background-image: url(../fondo-hojas-tropicales.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    
+    
+
+}
+#Seleccion{
+    background-color: white;
+}
+.row {
+    display: flex;
+    gap: 20px; /* Espacio entre los contenedores en la misma fila */
+}
+ 
+
+.sub{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+     
+}
+$container-max-widths:(
+    sm: 1240px,
+    md: 500px,
+    lg:1500px,
+    xl:1500px,
+    xxl:1500px
+    
+
+);  
+@import "../node_modules/bootstrap/scss/bootstrap"; 
