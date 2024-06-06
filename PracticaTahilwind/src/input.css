@@ -1,0 +1,9 @@
+.logo{
+    width:700px;
+    height: 120px;
+    background-color: aqua;
+}                                      
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
